@@ -39,6 +39,18 @@ body {
     justify-content: space-between;
 }
 
+.banner {
+    background-image: url('..//images/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     background-color: #f0f8ff;
     border-radius: 10px;
