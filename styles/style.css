@@ -13,7 +13,7 @@ body {
 
 .header {
     background-color: #ca3e16;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     padding: 20px;
     width: 100%;
 }
@@ -43,6 +43,7 @@ body {
     background-image: url('..//images/banner-image.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 500px;
     width: 100%;
 
@@ -52,16 +53,32 @@ body {
 }
 
 .container {
-    background-color: #f0f8ff;
-    border-radius: 10px;
-    margin: auto;
-    max-width: 300px;
+    background-color: rgba(255, 255, 255, .2);
+    max-width: 500px;
     padding: 20px;
 }
 
 input, button {
+    border: none;
     display: block;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
+}
+
+button {
+    background-color: #ca3e16;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.container h2, .container p {
+    margin-bottom: 10px;
+}
+
+.resultado {
+    font-weight: bold;
 }
